@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+    /* overflow-x: hidden; */
+}
+.gradient-custom {
+    background: #ddd8e347;
+    background: -webkit-linear-gradient(to right, rgb(202, 13, 32), rgb(17, 207, 10));
+    
+   background: linear-gradient(to right, rgb(9, 13, 42), rgb(6, 10, 64)) 
+    
+    }
+.login-btn{
+    position:relative;
+    bottom: -4rem;
+}
+.masthead {
+    
+    width: 99vw;
+    height: 90vh;
+    /* padding-top: 8rem;
+    padding-bottom: 8rem; */
+    background: linear-gradient( rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("Quotefancy-18846-3840x2160.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.text1{
+    margin-top: -60px;
+}
